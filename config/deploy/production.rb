@@ -3,4 +3,4 @@ set :stage, :production
 set :rails_env, :production
 set :deploy_to, '/home/deploy/rdev_production'
 
-server 'umrah-mabrur.com', user: 'deploy', roles: %w{web app db job}
+server '128.199.118.158', user: 'deploy', roles: %w{web app db job}
