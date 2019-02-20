@@ -7,7 +7,7 @@ class Footer extends React.Component {
       <footer className="mastfoot mt-auto">
         <div className="inner small">
           <p>
-            &copy; 2018. All right reserved.<br/>Built with <i class="fas fa-heart"></i> by <a href="https://www.facebook.com/amirolahmad" target="_blank">9M2ROL</a>
+            &copy; 2018. All right reserved.<br/>Built with <i className="fas fa-heart"></i> by <a href="https://www.facebook.com/amirolahmad" target="_blank">9M2ROL</a>
           </p>
         </div>
       </footer>
