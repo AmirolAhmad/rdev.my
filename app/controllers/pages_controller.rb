@@ -1,4 +1,5 @@
 class PagesController < ApplicationController
-  def index
-  end
+  layout 'spa'
+  
+  def index; end
 end
