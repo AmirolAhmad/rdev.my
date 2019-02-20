@@ -7,6 +7,7 @@ require "capistrano/rails"
 require "capistrano/passenger"
 require "capistrano/rbenv"
 require "capistrano/faster_assets"
+require "capistrano/yarn"
 
 # rbenv config
 set :rbenv_type, :user

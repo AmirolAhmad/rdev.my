@@ -55,6 +55,7 @@ group :development do
   gem 'capistrano-passenger'
   gem 'capistrano-rbenv', '~> 2.1'
   gem 'capistrano-faster-assets', '~> 1.0'
+  gem 'capistrano-yarn'
   gem 'ed25519', '~> 1.2', '>= 1.2.4'
   gem 'bcrypt_pbkdf', '~> 1.0.0.alpha1'
 end
