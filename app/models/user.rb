@@ -7,6 +7,8 @@ class User < ApplicationRecord
   validates :username, presence: :true, uniqueness: { case_sensitive: false }
   validate :validate_username
 
+  has_one :profile, dependent: :destroy
+
   attr_writer :login
 
   def login
